@@ -1,0 +1,28 @@
+
+@media (min-width:768px) and (max-width:991px){}
+@media (min-width:576px) and (max-width:767px){
+    /* CountDown css start */
+
+ .time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    font-weight: 500;
+}
+.time span{
+   display: block;
+   font-family: 'Oswald', sans-serif;
+}
+.span_tag{
+    font-size: 25px;      
+    width: 90px;
+    height:10px;
+    text-align: center;
+    
+
+}
+/* CountDown css End */
+}
+
+@media (max-width:575px){}
